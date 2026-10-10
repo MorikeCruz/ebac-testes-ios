@@ -8,11 +8,12 @@
     "@wdio/mocha-framework": "^8.24.12",
     "@wdio/spec-reporter": "^8.24.12",
     "appium-uiautomator2-driver": "^2.34.2",
+    "appium-xcuitest-driver": "^12.17.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "scripts": {
-"test:checkout": "wdio run ./config/wdio.conf.js --suite checkout",
+    "test:checkout": "wdio run ./config/wdio.conf.js --suite checkout",
     "test": "wdio run ./config/wdio.conf.js",
     "test:login": "wdio run ./config/wdio.conf.js --suite login",
     "test:product": "wdio run ./config/wdio.conf.js --suite product",
